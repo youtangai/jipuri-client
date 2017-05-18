@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		950EE0311ECD46E000F22740 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950EE0301ECD46E000F22740 /* AppDelegate.swift */; };
+		950EE0331ECD46E000F22740 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950EE0321ECD46E000F22740 /* FirstViewController.swift */; };
+		950EE0351ECD46E000F22740 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950EE0341ECD46E000F22740 /* SecondViewController.swift */; };
+		950EE0381ECD46E000F22740 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 950EE0361ECD46E000F22740 /* Main.storyboard */; };
+		950EE03A1ECD46E000F22740 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 950EE0391ECD46E000F22740 /* Assets.xcassets */; };
+		950EE03D1ECD46E000F22740 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 950EE03B1ECD46E000F22740 /* LaunchScreen.storyboard */; };
+		950EE0481ECD46E100F22740 /* jipuri_clientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950EE0471ECD46E100F22740 /* jipuri_clientTests.swift */; };
+		950EE0531ECD46E100F22740 /* jipuri_clientUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950EE0521ECD46E100F22740 /* jipuri_clientUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		950EE0441ECD46E000F22740 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 950EE0251ECD46DF00F22740 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 950EE02C1ECD46DF00F22740;
+			remoteInfo = "jipuri-client";
+		};
+		950EE04F1ECD46E100F22740 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 950EE0251ECD46DF00F22740 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 950EE02C1ECD46DF00F22740;
+			remoteInfo = "jipuri-client";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		950EE02D1ECD46E000F22740 /* jipuri-client.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "jipuri-client.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		950EE0301ECD46E000F22740 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		950EE0321ECD46E000F22740 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		950EE0341ECD46E000F22740 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		950EE0371ECD46E000F22740 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		950EE0391ECD46E000F22740 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		950EE03C1ECD46E000F22740 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		950EE03E1ECD46E000F22740 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		950EE0431ECD46E000F22740 /* jipuri-clientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "jipuri-clientTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		950EE0471ECD46E100F22740 /* jipuri_clientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jipuri_clientTests.swift; sourceTree = "<group>"; };
+		950EE0491ECD46E100F22740 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		950EE04E1ECD46E100F22740 /* jipuri-clientUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "jipuri-clientUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		950EE0521ECD46E100F22740 /* jipuri_clientUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jipuri_clientUITests.swift; sourceTree = "<group>"; };
+		950EE0541ECD46E100F22740 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		950EE02A1ECD46DF00F22740 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		950EE0401ECD46E000F22740 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		950EE04B1ECD46E100F22740 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		950EE0241ECD46DF00F22740 = {
+			isa = PBXGroup;
+			children = (
+				950EE02F1ECD46E000F22740 /* jipuri-client */,
+				950EE0461ECD46E000F22740 /* jipuri-clientTests */,
+				950EE0511ECD46E100F22740 /* jipuri-clientUITests */,
+				950EE02E1ECD46E000F22740 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		950EE02E1ECD46E000F22740 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				950EE02D1ECD46E000F22740 /* jipuri-client.app */,
+				950EE0431ECD46E000F22740 /* jipuri-clientTests.xctest */,
+				950EE04E1ECD46E100F22740 /* jipuri-clientUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		950EE02F1ECD46E000F22740 /* jipuri-client */ = {
+			isa = PBXGroup;
+			children = (
+				950EE0301ECD46E000F22740 /* AppDelegate.swift */,
+				950EE0321ECD46E000F22740 /* FirstViewController.swift */,
+				950EE0341ECD46E000F22740 /* SecondViewController.swift */,
+				950EE0361ECD46E000F22740 /* Main.storyboard */,
+				950EE0391ECD46E000F22740 /* Assets.xcassets */,
+				950EE03B1ECD46E000F22740 /* LaunchScreen.storyboard */,
+				950EE03E1ECD46E000F22740 /* Info.plist */,
+			);
+			path = "jipuri-client";
+			sourceTree = "<group>";
+		};
+		950EE0461ECD46E000F22740 /* jipuri-clientTests */ = {
+			isa = PBXGroup;
+			children = (
+				950EE0471ECD46E100F22740 /* jipuri_clientTests.swift */,
+				950EE0491ECD46E100F22740 /* Info.plist */,
+			);
+			path = "jipuri-clientTests";
+			sourceTree = "<group>";
+		};
+		950EE0511ECD46E100F22740 /* jipuri-clientUITests */ = {
+			isa = PBXGroup;
+			children = (
+				950EE0521ECD46E100F22740 /* jipuri_clientUITests.swift */,
+				950EE0541ECD46E100F22740 /* Info.plist */,
+			);
+			path = "jipuri-clientUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		950EE02C1ECD46DF00F22740 /* jipuri-client */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 950EE0571ECD46E100F22740 /* Build configuration list for PBXNativeTarget "jipuri-client" */;
+			buildPhases = (
+				950EE0291ECD46DF00F22740 /* Sources */,
+				950EE02A1ECD46DF00F22740 /* Frameworks */,
+				950EE02B1ECD46DF00F22740 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "jipuri-client";
+			productName = "jipuri-client";
+			productReference = 950EE02D1ECD46E000F22740 /* jipuri-client.app */;
+			productType = "com.apple.product-type.application";
+		};
+		950EE0421ECD46E000F22740 /* jipuri-clientTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 950EE05A1ECD46E100F22740 /* Build configuration list for PBXNativeTarget "jipuri-clientTests" */;
+			buildPhases = (
+				950EE03F1ECD46E000F22740 /* Sources */,
+				950EE0401ECD46E000F22740 /* Frameworks */,
+				950EE0411ECD46E000F22740 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				950EE0451ECD46E000F22740 /* PBXTargetDependency */,
+			);
+			name = "jipuri-clientTests";
+			productName = "jipuri-clientTests";
+			productReference = 950EE0431ECD46E000F22740 /* jipuri-clientTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		950EE04D1ECD46E100F22740 /* jipuri-clientUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 950EE05D1ECD46E100F22740 /* Build configuration list for PBXNativeTarget "jipuri-clientUITests" */;
+			buildPhases = (
+				950EE04A1ECD46E100F22740 /* Sources */,
+				950EE04B1ECD46E100F22740 /* Frameworks */,
+				950EE04C1ECD46E100F22740 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				950EE0501ECD46E100F22740 /* PBXTargetDependency */,
+			);
+			name = "jipuri-clientUITests";
+			productName = "jipuri-clientUITests";
+			productReference = 950EE04E1ECD46E100F22740 /* jipuri-clientUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		950EE0251ECD46DF00F22740 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "永井陽太";
+				TargetAttributes = {
+					950EE02C1ECD46DF00F22740 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = W4R9RD62F3;
+						ProvisioningStyle = Automatic;
+					};
+					950EE0421ECD46E000F22740 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = W4R9RD62F3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 950EE02C1ECD46DF00F22740;
+					};
+					950EE04D1ECD46E100F22740 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = W4R9RD62F3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 950EE02C1ECD46DF00F22740;
+					};
+				};
+			};
+			buildConfigurationList = 950EE0281ECD46DF00F22740 /* Build configuration list for PBXProject "jipuri-client" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 950EE0241ECD46DF00F22740;
+			productRefGroup = 950EE02E1ECD46E000F22740 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				950EE02C1ECD46DF00F22740 /* jipuri-client */,
+				950EE0421ECD46E000F22740 /* jipuri-clientTests */,
+				950EE04D1ECD46E100F22740 /* jipuri-clientUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		950EE02B1ECD46DF00F22740 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				950EE03D1ECD46E000F22740 /* LaunchScreen.storyboard in Resources */,
+				950EE03A1ECD46E000F22740 /* Assets.xcassets in Resources */,
+				950EE0381ECD46E000F22740 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		950EE0411ECD46E000F22740 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		950EE04C1ECD46E100F22740 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		950EE0291ECD46DF00F22740 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				950EE0351ECD46E000F22740 /* SecondViewController.swift in Sources */,
+				950EE0311ECD46E000F22740 /* AppDelegate.swift in Sources */,
+				950EE0331ECD46E000F22740 /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		950EE03F1ECD46E000F22740 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				950EE0481ECD46E100F22740 /* jipuri_clientTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		950EE04A1ECD46E100F22740 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				950EE0531ECD46E100F22740 /* jipuri_clientUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		950EE0451ECD46E000F22740 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 950EE02C1ECD46DF00F22740 /* jipuri-client */;
+			targetProxy = 950EE0441ECD46E000F22740 /* PBXContainerItemProxy */;
+		};
+		950EE0501ECD46E100F22740 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 950EE02C1ECD46DF00F22740 /* jipuri-client */;
+			targetProxy = 950EE04F1ECD46E100F22740 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		950EE0361ECD46E000F22740 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				950EE0371ECD46E000F22740 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		950EE03B1ECD46E000F22740 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				950EE03C1ECD46E000F22740 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		950EE0551ECD46E100F22740 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		950EE0561ECD46E100F22740 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		950EE0581ECD46E100F22740 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W4R9RD62F3;
+				INFOPLIST_FILE = "jipuri-client/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yotangai.com.jipuri-client";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		950EE0591ECD46E100F22740 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W4R9RD62F3;
+				INFOPLIST_FILE = "jipuri-client/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yotangai.com.jipuri-client";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		950EE05B1ECD46E100F22740 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = W4R9RD62F3;
+				INFOPLIST_FILE = "jipuri-clientTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yotangai.com.jipuri-clientTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/jipuri-client.app/jipuri-client";
+			};
+			name = Debug;
+		};
+		950EE05C1ECD46E100F22740 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = W4R9RD62F3;
+				INFOPLIST_FILE = "jipuri-clientTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yotangai.com.jipuri-clientTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/jipuri-client.app/jipuri-client";
+			};
+			name = Release;
+		};
+		950EE05E1ECD46E100F22740 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = W4R9RD62F3;
+				INFOPLIST_FILE = "jipuri-clientUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yotangai.com.jipuri-clientUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "jipuri-client";
+			};
+			name = Debug;
+		};
+		950EE05F1ECD46E100F22740 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = W4R9RD62F3;
+				INFOPLIST_FILE = "jipuri-clientUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yotangai.com.jipuri-clientUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "jipuri-client";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		950EE0281ECD46DF00F22740 /* Build configuration list for PBXProject "jipuri-client" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				950EE0551ECD46E100F22740 /* Debug */,
+				950EE0561ECD46E100F22740 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		950EE0571ECD46E100F22740 /* Build configuration list for PBXNativeTarget "jipuri-client" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				950EE0581ECD46E100F22740 /* Debug */,
+				950EE0591ECD46E100F22740 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		950EE05A1ECD46E100F22740 /* Build configuration list for PBXNativeTarget "jipuri-clientTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				950EE05B1ECD46E100F22740 /* Debug */,
+				950EE05C1ECD46E100F22740 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		950EE05D1ECD46E100F22740 /* Build configuration list for PBXNativeTarget "jipuri-clientUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				950EE05E1ECD46E100F22740 /* Debug */,
+				950EE05F1ECD46E100F22740 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 950EE0251ECD46DF00F22740 /* Project object */;
+}
