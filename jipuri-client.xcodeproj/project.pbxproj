@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		950BCB971ED0488C00D5D54F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 950BCB961ED0488C00D5D54F /* Main.storyboard */; };
 		950EE0311ECD46E000F22740 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950EE0301ECD46E000F22740 /* AppDelegate.swift */; };
-		950EE0331ECD46E000F22740 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950EE0321ECD46E000F22740 /* FirstViewController.swift */; };
-		950EE0351ECD46E000F22740 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950EE0341ECD46E000F22740 /* SecondViewController.swift */; };
 		950EE0381ECD46E000F22740 /* Tab.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 950EE0361ECD46E000F22740 /* Tab.storyboard */; };
 		950EE03A1ECD46E000F22740 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 950EE0391ECD46E000F22740 /* Assets.xcassets */; };
 		950EE03D1ECD46E000F22740 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 950EE03B1ECD46E000F22740 /* LaunchScreen.storyboard */; };
@@ -19,6 +17,9 @@
 		95861C5D1ED08BCA001ECBDE /* jino.png in Resources */ = {isa = PBXBuildFile; fileRef = 95861C5C1ED08BCA001ECBDE /* jino.png */; };
 		95861C5E1ED08BCA001ECBDE /* jino.png in Resources */ = {isa = PBXBuildFile; fileRef = 95861C5C1ED08BCA001ECBDE /* jino.png */; };
 		95861C5F1ED08BCA001ECBDE /* jino.png in Resources */ = {isa = PBXBuildFile; fileRef = 95861C5C1ED08BCA001ECBDE /* jino.png */; };
+		95861C651ED09469001ECBDE /* InfoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95861C641ED09469001ECBDE /* InfoTableViewController.swift */; };
+		95861C661ED09469001ECBDE /* InfoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95861C641ED09469001ECBDE /* InfoTableViewController.swift */; };
+		95861C671ED09469001ECBDE /* InfoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95861C641ED09469001ECBDE /* InfoTableViewController.swift */; };
 		95A9070B1ECEF54B006A5E51 /* TabEvents.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95A9070A1ECEF54B006A5E51 /* TabEvents.storyboard */; };
 		95A9070D1ECEF56A006A5E51 /* TabInfo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95A9070C1ECEF56A006A5E51 /* TabInfo.storyboard */; };
 		95A9070F1ECEF593006A5E51 /* TabConfig.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95A9070E1ECEF593006A5E51 /* TabConfig.storyboard */; };
@@ -45,8 +46,6 @@
 		950BCB961ED0488C00D5D54F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		950EE02D1ECD46E000F22740 /* jipuri-client.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "jipuri-client.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		950EE0301ECD46E000F22740 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		950EE0321ECD46E000F22740 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		950EE0341ECD46E000F22740 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		950EE0371ECD46E000F22740 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Tab.storyboard; sourceTree = "<group>"; };
 		950EE0391ECD46E000F22740 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		950EE03C1ECD46E000F22740 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,6 +57,7 @@
 		950EE0521ECD46E100F22740 /* jipuri_clientUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jipuri_clientUITests.swift; sourceTree = "<group>"; };
 		950EE0541ECD46E100F22740 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		95861C5C1ED08BCA001ECBDE /* jino.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jino.png; sourceTree = "<group>"; };
+		95861C641ED09469001ECBDE /* InfoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoTableViewController.swift; sourceTree = "<group>"; };
 		95A9070A1ECEF54B006A5E51 /* TabEvents.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = TabEvents.storyboard; path = ../TabEvents.storyboard; sourceTree = "<group>"; };
 		95A9070C1ECEF56A006A5E51 /* TabInfo.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TabInfo.storyboard; sourceTree = "<group>"; };
 		95A9070E1ECEF593006A5E51 /* TabConfig.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TabConfig.storyboard; sourceTree = "<group>"; };
@@ -113,8 +113,6 @@
 			children = (
 				95861C5C1ED08BCA001ECBDE /* jino.png */,
 				950EE0301ECD46E000F22740 /* AppDelegate.swift */,
-				950EE0321ECD46E000F22740 /* FirstViewController.swift */,
-				950EE0341ECD46E000F22740 /* SecondViewController.swift */,
 				950EE0391ECD46E000F22740 /* Assets.xcassets */,
 				950EE03B1ECD46E000F22740 /* LaunchScreen.storyboard */,
 				950EE03E1ECD46E000F22740 /* Info.plist */,
@@ -123,6 +121,7 @@
 				95A9070A1ECEF54B006A5E51 /* TabEvents.storyboard */,
 				95A9070C1ECEF56A006A5E51 /* TabInfo.storyboard */,
 				95A9070E1ECEF593006A5E51 /* TabConfig.storyboard */,
+				95861C641ED09469001ECBDE /* InfoTableViewController.swift */,
 			);
 			path = "jipuri-client";
 			sourceTree = "<group>";
@@ -289,9 +288,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				950EE0351ECD46E000F22740 /* SecondViewController.swift in Sources */,
 				950EE0311ECD46E000F22740 /* AppDelegate.swift in Sources */,
-				950EE0331ECD46E000F22740 /* FirstViewController.swift in Sources */,
+				95861C651ED09469001ECBDE /* InfoTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +298,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				950EE0481ECD46E100F22740 /* jipuri_clientTests.swift in Sources */,
+				95861C661ED09469001ECBDE /* InfoTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,6 +307,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				950EE0531ECD46E100F22740 /* jipuri_clientUITests.swift in Sources */,
+				95861C671ED09469001ECBDE /* InfoTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
