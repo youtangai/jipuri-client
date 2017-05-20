@@ -16,6 +16,9 @@
 		950EE03D1ECD46E000F22740 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 950EE03B1ECD46E000F22740 /* LaunchScreen.storyboard */; };
 		950EE0481ECD46E100F22740 /* jipuri_clientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950EE0471ECD46E100F22740 /* jipuri_clientTests.swift */; };
 		950EE0531ECD46E100F22740 /* jipuri_clientUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950EE0521ECD46E100F22740 /* jipuri_clientUITests.swift */; };
+		95861C5D1ED08BCA001ECBDE /* jino.png in Resources */ = {isa = PBXBuildFile; fileRef = 95861C5C1ED08BCA001ECBDE /* jino.png */; };
+		95861C5E1ED08BCA001ECBDE /* jino.png in Resources */ = {isa = PBXBuildFile; fileRef = 95861C5C1ED08BCA001ECBDE /* jino.png */; };
+		95861C5F1ED08BCA001ECBDE /* jino.png in Resources */ = {isa = PBXBuildFile; fileRef = 95861C5C1ED08BCA001ECBDE /* jino.png */; };
 		95A9070B1ECEF54B006A5E51 /* TabEvents.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95A9070A1ECEF54B006A5E51 /* TabEvents.storyboard */; };
 		95A9070D1ECEF56A006A5E51 /* TabInfo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95A9070C1ECEF56A006A5E51 /* TabInfo.storyboard */; };
 		95A9070F1ECEF593006A5E51 /* TabConfig.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95A9070E1ECEF593006A5E51 /* TabConfig.storyboard */; };
@@ -54,6 +57,7 @@
 		950EE04E1ECD46E100F22740 /* jipuri-clientUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "jipuri-clientUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		950EE0521ECD46E100F22740 /* jipuri_clientUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jipuri_clientUITests.swift; sourceTree = "<group>"; };
 		950EE0541ECD46E100F22740 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95861C5C1ED08BCA001ECBDE /* jino.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jino.png; sourceTree = "<group>"; };
 		95A9070A1ECEF54B006A5E51 /* TabEvents.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = TabEvents.storyboard; path = ../TabEvents.storyboard; sourceTree = "<group>"; };
 		95A9070C1ECEF56A006A5E51 /* TabInfo.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TabInfo.storyboard; sourceTree = "<group>"; };
 		95A9070E1ECEF593006A5E51 /* TabConfig.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TabConfig.storyboard; sourceTree = "<group>"; };
@@ -107,6 +111,7 @@
 		950EE02F1ECD46E000F22740 /* jipuri-client */ = {
 			isa = PBXGroup;
 			children = (
+				95861C5C1ED08BCA001ECBDE /* jino.png */,
 				950EE0301ECD46E000F22740 /* AppDelegate.swift */,
 				950EE0321ECD46E000F22740 /* FirstViewController.swift */,
 				950EE0341ECD46E000F22740 /* SecondViewController.swift */,
@@ -253,6 +258,7 @@
 				950BCB971ED0488C00D5D54F /* Main.storyboard in Resources */,
 				950EE03D1ECD46E000F22740 /* LaunchScreen.storyboard in Resources */,
 				95A9070D1ECEF56A006A5E51 /* TabInfo.storyboard in Resources */,
+				95861C5D1ED08BCA001ECBDE /* jino.png in Resources */,
 				95A9070F1ECEF593006A5E51 /* TabConfig.storyboard in Resources */,
 				950EE03A1ECD46E000F22740 /* Assets.xcassets in Resources */,
 				950EE0381ECD46E000F22740 /* Tab.storyboard in Resources */,
@@ -264,6 +270,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95861C5E1ED08BCA001ECBDE /* jino.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,6 +278,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95861C5F1ED08BCA001ECBDE /* jino.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
